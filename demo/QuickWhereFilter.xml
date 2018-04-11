@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWhereControl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WhereControl>
+    <ValueOperation />
+    <Value2Operation />
+    <SkipFieldNameBrackets>false</SkipFieldNameBrackets>
+    <SkipTableNameBrackets>false</SkipTableNameBrackets>
+    <FieldName>Field1</FieldName>
+    <Value2>ListValue5</Value2>
+    <WhereOperator>Contains</WhereOperator>
+    <TableName />
+    <ValueType>StringType</ValueType>
+    <Value>ListValue5</Value>
+    <Used>true</Used>
+    <Control1>ListBox1</Control1>
+    <Control2 />
+    <SelectedValueIsUsed>false</SelectedValueIsUsed>
+  </WhereControl>
+  <WhereControl>
+    <ValueOperation />
+    <Value2Operation />
+    <SkipFieldNameBrackets>false</SkipFieldNameBrackets>
+    <SkipTableNameBrackets>false</SkipTableNameBrackets>
+    <FieldName>Field2</FieldName>
+    <Value2>20</Value2>
+    <WhereOperator>GreaterOrEqual</WhereOperator>
+    <TableName />
+    <ValueType>NumericType</ValueType>
+    <Value>20</Value>
+    <Used>true</Used>
+    <Control1>ComboBox1</Control1>
+    <Control2 />
+    <SelectedValueIsUsed>false</SelectedValueIsUsed>
+  </WhereControl>
+  <WhereControl>
+    <ValueOperation />
+    <Value2Operation />
+    <SkipFieldNameBrackets>false</SkipFieldNameBrackets>
+    <SkipTableNameBrackets>false</SkipTableNameBrackets>
+    <FieldName>Field3</FieldName>
+    <Value2>No</Value2>
+    <WhereOperator>EqualTo</WhereOperator>
+    <TableName />
+    <ValueType>BooleanType</ValueType>
+    <Value>No</Value>
+    <Used>true</Used>
+    <Control1>ComboBox2</Control1>
+    <Control2 />
+    <SelectedValueIsUsed>false</SelectedValueIsUsed>
+  </WhereControl>
+  <WhereControl>
+    <ValueOperation />
+    <Value2Operation />
+    <SkipFieldNameBrackets>false</SkipFieldNameBrackets>
+    <SkipTableNameBrackets>false</SkipTableNameBrackets>
+    <FieldName>Field4</FieldName>
+    <Value2>22/05/87 0:00:00 AM</Value2>
+    <WhereOperator>Between</WhereOperator>
+    <TableName>TableName1</TableName>
+    <ValueType>DateType</ValueType>
+    <Value>17/05/87 0:00:00 AM</Value>
+    <Used>true</Used>
+    <Control1>MonthCalendar1</Control1>
+    <Control2>MonthCalendar1</Control2>
+    <SelectedValueIsUsed>false</SelectedValueIsUsed>
+  </WhereControl>
+  <WhereControl>
+    <ValueOperation />
+    <Value2Operation />
+    <SkipFieldNameBrackets>false</SkipFieldNameBrackets>
+    <SkipTableNameBrackets>false</SkipTableNameBrackets>
+    <FieldName>Field5</FieldName>
+    <Value2>9999.99</Value2>
+    <WhereOperator>NotBetween</WhereOperator>
+    <TableName>TableName2</TableName>
+    <ValueType>NumericType</ValueType>
+    <Value>1111.11</Value>
+    <Used>true</Used>
+    <Control1>TextBox1</Control1>
+    <Control2>TextBox2</Control2>
+    <SelectedValueIsUsed>false</SelectedValueIsUsed>
+  </WhereControl>
+</ArrayOfWhereControl>
